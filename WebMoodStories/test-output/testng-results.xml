@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18275" started-at="2017-07-05T04:50:57Z" finished-at="2017-07-05T04:51:15Z">
+  <suite name="Default suite" duration-ms="38241" started-at="2017-07-08T10:39:59Z" finished-at="2017-07-08T10:40:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18275" started-at="2017-07-05T04:50:57Z" finished-at="2017-07-05T04:51:15Z">
-      <class name="org.BUS.TestLogin">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.BUS.TestLogin@224edc67]" name="beforeTest" is-config="true" duration-ms="8005" started-at="2017-07-05T11:50:57Z" finished-at="2017-07-05T11:51:05Z">
+    <test name="Default test" duration-ms="38241" started-at="2017-07-08T10:39:59Z" finished-at="2017-07-08T10:40:37Z">
+      <class name="org.bus.TestLoginOnFirefox">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.bus.TestLoginOnFirefox@1c62251]" name="beforeTest" is-config="true" duration-ms="18753" started-at="2017-07-08T17:39:59Z" finished-at="2017-07-08T17:40:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TestLogin()[pri:0, instance:org.BUS.TestLogin@224edc67]" name="TestLogin" duration-ms="9676" started-at="2017-07-05T11:51:05Z" finished-at="2017-07-05T11:51:14Z">
+        <test-method status="PASS" signature="TestLogin()[pri:0, instance:org.bus.TestLoginOnFirefox@1c62251]" name="TestLogin" duration-ms="17958" started-at="2017-07-08T17:40:17Z" finished-at="2017-07-08T17:40:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestLogin -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.BUS.TestLogin@224edc67]" name="afterTest" is-config="true" duration-ms="570" started-at="2017-07-05T11:51:14Z" finished-at="2017-07-05T11:51:15Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.bus.TestLoginOnFirefox@1c62251]" name="afterTest" is-config="true" duration-ms="1407" started-at="2017-07-08T17:40:35Z" finished-at="2017-07-08T17:40:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- org.BUS.TestLogin -->
+      </class> <!-- org.bus.TestLoginOnFirefox -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

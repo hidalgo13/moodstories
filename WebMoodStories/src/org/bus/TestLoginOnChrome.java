@@ -15,7 +15,7 @@ import org.setup.DriverSetup;
 import org.setup.ExcelLib;
 import org.testng.annotations.AfterTest;
 
-public class TestLogin {
+public class TestLoginOnChrome {
 
 	WebDriver driver = null;
 	ExcelLib excel = null;
@@ -23,7 +23,8 @@ public class TestLogin {
 	@BeforeTest
 	public void beforeTest() throws BiffException, IOException {
 		DriverSetup setup = new DriverSetup();
-		driver = setup.FirefoxDriverSetup();
+		//driver = setup.FirefoxDriverSetup();
+		driver = setup.ChromeDriverSetup();
 		adminLoginPage = new AdminLoginPageObject(driver);
 		excel = new ExcelLib(".\\TestData\\UserAdmin.xls");
 		excel.ColumnDictionary();

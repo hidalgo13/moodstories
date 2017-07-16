@@ -3,6 +3,7 @@ package org.setup;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.pom.AdminHomePageObject;
 
 public class DriverSetup {
@@ -24,6 +25,16 @@ public class DriverSetup {
 		System.setProperty("webdriver.gecko.driver", ".\\Driver\\geckodriver.exe");
 
 		WebDriver driver = new ChromeDriver();
+		return driver;
+
+	}
+	
+	public WebDriver IEDriverSetup() {
+		
+		System.setProperty("webdriver.ie.driver", ".\\Driver\\IEDriverServer.exe");
+		System.setProperty("webdriver.gecko.driver", ".\\Driver\\geckodriver.exe");
+
+		WebDriver driver = new InternetExplorerDriver();
 		return driver;
 
 	}

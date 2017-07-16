@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 
 import jxl.read.biff.BiffException;
 
-public class TestLoginOnFirefox {
+public class TestLoginOnIE {
 
 	WebDriver driver = null;
 	ExcelReader excel = null;
@@ -27,7 +27,7 @@ public class TestLoginOnFirefox {
 	@BeforeTest
 	public void beforeTest() throws BiffException, IOException {
 		DriverSetup setup = new DriverSetup();
-		driver = setup.FirefoxDriverSetup();
+		driver = setup.IEDriverSetup();
 		
 		adminLoginPage = new AdminLoginPageObject(driver);
 		excel = new ExcelReader(".\\TestData\\UserAdmin.xlsx");
